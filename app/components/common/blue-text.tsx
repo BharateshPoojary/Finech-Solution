@@ -1,0 +1,11 @@
+import React from 'react'
+
+const BlueText = ({ text }: { text: string }) => {
+    return (
+        <div className="inline-flex items-center rounded-full  px-3 py-1 text-md font-semibold tracking-wider text-blue-600 uppercase">
+            {text}
+        </div>
+    )
+}
+
+export default BlueText
